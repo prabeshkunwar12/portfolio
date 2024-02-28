@@ -15,14 +15,14 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
     tripguide,
     threejs,
+    tasktale,
+    tasktale_page,
+    webnp,
+    webnp_page,
+    andrews,
+    walmart,
   } from "../assets";
   
   export const navLinks = [
@@ -116,10 +116,28 @@ import {
   
   const experiences = [
     {
-      title: "Tech Lead",
+      title: "Co-Founder and Full Stack Developer",
+      company_name: "TaskTale",
+      icon: tasktale,
+      iconBg: "#ffffff",
+      date: "Nov 2023 - current",
+      points: [
+        "Developing TaskTale, a dynamic task management platform, applying a lean business model", 
+        "Solely responsible for the end-to-end development, focusing on crafting an intuitive UI, implementing robust authentication features, animations, and ensuring secure data handling.",
+        "Utilized React, Tailwind CSS, and various UI libraries (clcx, Shadcn UI, Radix UI, Lucide React) to create an engaging and user-friendly interface.",
+        "Implemented secure authentication features using Next AUTH and other related technologies, ensuring user data privacy.",
+        "Managed hosting and deployment with Vercel, Nginx, Hostinger, and other tools to optimize performance and accessibility.",
+        "Employed PostgreSQL and Prisma for effective data storage and retrieval, contributing to the platform's reliability.",
+        "Contributed to lean model business planning, aligning platform features with user needs and market demands.",
+        "Explore TaskTale to witness the dynamic transformation in task management facilitated by the platform.",
+
+      ],
+    },
+    {
+      title: "Tech Lead and Full Stack Developer",
       company_name: "UPEI WebNP for nursing students",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: webnp,
+      iconBg: "#fff5d8",
       date: "sept 2022 - April 2023",
       points: [
         "Steering the project's technical direction, I harnessed the Laravel framework and Bootstrap to forge a robust, user-centric platform. Informed decisions paved the way for a successful website.",
@@ -133,43 +151,26 @@ import {
     {
       title: "Caregiver",
       company_name: "Andrews of Summerside",
-      icon: tesla,
-      iconBg: "#E6DEDD",
+      icon: andrews,
+      iconBg: "#ffffff",
       date: "Jun 2020 - Jun 2023",
       points: [
-        "Providing ongoing personal care assistance, including dressing, grooming, bathing, and assisting with adaptive devices like hearing aids and glasses.",
-        "Offering continuous mobility support by aiding with wheelchairs, walkers, and transfers, while continually encouraging light exercises for improved mobility.",        
-        "Managing medications continuously as prescribed, diligently monitoring and documenting reactions, and maintaining up-to-date medication records.",        
-        "Continuously planning and serving meals tailored to dietary needs, monitoring food intake and hydration, and adapting food consistency for individuals with swallowing difficulties.",        
-        "Delivering continuous emotional and social support through companionship, active listening, and engaging in ongoing recreational activities while offering comfort during times of confusion or agitation.",        
-        "Ensuring continuous safety and health by vigilantly checking for injuries, infections, or skin issues, continually monitoring vital signs, and maintaining a safe environment with ongoing fall prevention measures.",        
-        "Maintaining continuous and accurate care records, continually communicating observations and concerns effectively, and documenting incidents with adherence to reporting procedures.",        
-        "Providing continuous cognitive support for dementia patients through redirection and validation techniques, creating a calming environment, and managing ongoing challenging behaviors and mood fluctuations.",       
-        "Collaborating with healthcare professionals continually, ensuring seamless communication and coordination, and keeping family members continually informed about the individual's condition.",        
-        "Upholding privacy and dignity while continually encouraging independence whenever feasible.",        
-        "Remaining continuously prepared to respond promptly to emergencies.",        
-        "Committing to ongoing learning and training to stay continually updated on the latest caregiving techniques and best practices.",
-        ],
+        "Provide comprehensive personal care assistance, including dressing, grooming, and bathing.",
+        "Offer continuous mobility support, aiding with adaptive devices, wheelchairs, walkers, and transfers, while encouraging light exercises.",
+        "Plan and serve tailored meals, monitoring dietary needs, food intake, and hydration, adapting for individuals with swallowing difficulties.",
+      ],
     },
     {
       title: "Cashier",
       company_name: "Walmart Summerside",
-      icon: shopify,
-      iconBg: "#383E56",
+      icon: walmart,
+      iconBg: "#0000ff",
       date: "May 2020 - Oct 2022",
       points: [    
-        "Greeting customers with a friendly and welcoming demeanor, providing assistance, and answering inquiries about products and store policies to ensure a positive and efficient shopping experience.",        
-        "Accurately ringing up purchases using cash registers or scanning systems, handling cash, credit/debit cards, checks, and electronic payments, and calculating change while issuing receipts.",        
-        "Properly bagging items to prevent damage and ensure food safety, while handling delicate or fragile items with care.",        
-        "Continuously monitoring and reporting low stock levels to supervisors, as well as assisting in restocking shelves and maintaining organized checkout areas.",        
-        "Efficiently processing customer returns and exchanges, following store policies for returning merchandise.",        
-        "Maintaining accurate cash balances and adhering to cash handling policies and security procedures.",        
-        "Keeping the checkout area clean, organized, and free of clutter, as well as assisting in cleaning and tidying the store as needed.",        
-        "Providing extra assistance to customers with disabilities or special needs to ensure they have a comfortable and pleasant shopping experience.",        
-        "Remaining vigilant for any suspicious activity or shoplifting and following store procedures for reporting and deterring theft.",        
-        "Collaborating with other cashiers and store associates to ensure efficient operations, as well as assisting with cross-functional tasks and supporting fellow team members.",        
-        "Promoting store loyalty programs and encouraging customer engagement, while suggesting complementary products to enhance the customer's purchase.",        
-        "Continuously gathering and relaying customer feedback to store management, and suggesting improvements to enhance the shopping experience.",
+        "Provided friendly and welcoming customer service, addressing inquiries about products and store policies.",
+        "Efficiently processed transactions using cash registers and scanning systems, handling cash, credit/debit cards, checks, and electronic payments.",
+        "Monitored and reported low stock levels, contributing to the store's inventory management.",
+        "Handled customer returns and exchanges according to store policies, ensuring a positive shopping experience.",
       ],
     },
     
@@ -204,67 +205,192 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "TaskTale",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Dynamic platform revolutionizing task management through a robust web application. Contributed to an intuitive UI, authentication features, animations, and secure data handling",
       tags: [
         {
-          name: "react",
+          name: "Next.JS",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "TypeScript",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "React",
           color: "pink-text-gradient",
         },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
         {
-          name: "react",
+          name: "clcx",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Tailwind CSS",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Shadcn-UI",
           color: "pink-text-gradient",
         },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
         {
-          name: "nextjs",
+          name: "Radix-UI",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "PostgreSQL",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Prisma",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Next AUTH-5.0.0",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "zod",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TRPC",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "REST api",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Vercel",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Hostinger",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "VPS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Docker",
+          color: "green-text-gradient",
+        },
+      ],
+      image: tasktale_page,
+      link: "https://tasktale.com/",
+      link_image: tasktale
+    },
+    {
+      name: "WebNP",
+      description:
+        "Led the development of a dynamic website enhancing nurse students' academic journey. Utilized Laravel and Bootstrap for responsiveness and scalability.",
+      tags: [
+        {
+          name: "Laravel",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PHP",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "composer",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "PHP myAdmin",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "faker-php",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Artisan",
+          color: "green-text-gradient",
+        },
+        {
+          name: "laravel adminlite",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "mokery",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "PHP unit",
+          color: "green-text-gradient",
+        },
+      ],
+      image: webnp_page,
+      source_code_link: "https://github.com/prabeshkunwar12/webnp_server",
+    },
+    {
+      name: "School Management System",
+      description:
+        "Played a crucial role in architecting and implementing a comprehensive software solution with focus on data accuracy, system efficiency, and seamless communication among administrators, teachers, students, and parents has been instrumental in enhancing the overall functionality and performance of the system.",
+      tags: [
+        {
+          name: "Spring",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Spring boot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JDBC",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JPA",
+          color: "green-text-gradient",
+        },
+        {
+          name: "hibernate",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JUnit",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Mockito",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Apache Tomcat",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "SonarQube",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "SLF4J",
+          color: "green-text-gradient",
+        },
+        {
+          name: "GitHub",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/prabeshkunwar12/schoolManagementSystem",
     },
   ];
   

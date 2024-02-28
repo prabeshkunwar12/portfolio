@@ -25,10 +25,16 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import tasktale from "./company/TaskTale.png"
+import webnp from "./company/WebNP.png"
+import andrews from "./company/andrews.png"
+import walmart from "./company/walmart.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import tasktale_page from "./tasktale-page.png"
+import webnp_page from "./webnp-page.png"
 
 export {
   logo,
@@ -56,7 +62,13 @@ export {
   shopify,
   starbucks,
   tesla,
+  tasktale,
+  webnp,
+  andrews,
   carrent,
   jobit,
   tripguide,
+  tasktale_page,
+  webnp_page,
+  walmart,
 };
