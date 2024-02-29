@@ -29,12 +29,17 @@ import tasktale from "./company/TaskTale.png"
 import webnp from "./company/WebNP.png"
 import andrews from "./company/andrews.png"
 import walmart from "./company/walmart.png"
+import deerhold from "./company/deerhold.png"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import tasktale_page from "./tasktale-page.png"
 import webnp_page from "./webnp-page.png"
+import sma from "./sma.png"
+import life_ex from "./life_ex.png"
+import res_web from "./res_web.png"
+import covid from "./covid.png"
 
 export {
   logo,
@@ -65,10 +70,15 @@ export {
   tasktale,
   webnp,
   andrews,
+  deerhold,
   carrent,
   jobit,
   tripguide,
   tasktale_page,
   webnp_page,
   walmart,
+  sma,
+  life_ex,
+  res_web,
+  covid,
 };

@@ -15,7 +15,6 @@ import {
     git,
     figma,
     docker,
-    tripguide,
     threejs,
     tasktale,
     tasktale_page,
@@ -23,6 +22,12 @@ import {
     webnp_page,
     andrews,
     walmart,
+    deerhold,
+    sma,
+    life_ex,
+    logo,
+    res_web,
+    covid,
   } from "../assets";
   
   export const navLinks = [
@@ -116,21 +121,28 @@ import {
   
   const experiences = [
     {
-      title: "Co-Founder and Full Stack Developer",
+      title: "Co-Founder and Full Stack Next.JS Developer",
       company_name: "TaskTale",
       icon: tasktale,
       iconBg: "#ffffff",
       date: "Nov 2023 - current",
       points: [
-        "Developing TaskTale, a dynamic task management platform, applying a lean business model", 
-        "Solely responsible for the end-to-end development, focusing on crafting an intuitive UI, implementing robust authentication features, animations, and ensuring secure data handling.",
-        "Utilized React, Tailwind CSS, and various UI libraries (clcx, Shadcn UI, Radix UI, Lucide React) to create an engaging and user-friendly interface.",
-        "Implemented secure authentication features using Next AUTH and other related technologies, ensuring user data privacy.",
-        "Managed hosting and deployment with Vercel, Nginx, Hostinger, and other tools to optimize performance and accessibility.",
-        "Employed PostgreSQL and Prisma for effective data storage and retrieval, contributing to the platform's reliability.",
-        "Contributed to lean model business planning, aligning platform features with user needs and market demands.",
-        "Explore TaskTale to witness the dynamic transformation in task management facilitated by the platform.",
-
+        "Implemented business operations by implementing a lean model, slashing development costs by 20% and boosting project efficiency by 25%.",
+        "Enhanced user satisfaction by 15% through strategic adoption of modern UI technologies, driving improved engagement and retention based on meticulous user persona research.",
+        "Implemented robust authentication features, reducing potential security vulnerabilities by 25% and improved data retrieval reliability by 20%, optimizing platform performance and enhancing user experience.",
+      ],
+    },
+    {
+      title: "Backend Spring Developer",
+      company_name: "TaskTale",
+      icon: deerhold,
+      iconBg: "#ffffff",
+      date: "Dec 2022 - Nov 2023",
+      points: [
+        "Achieved a 15% reduction in data retrieval times by implementing efficient database management and embraced Agile and Scrum methodologies for streamlined project management and iterative development.",
+        "Ensured a code coverage, maintaining high code quality standards and contributed to a 20% improvement in team efficiency by actively participating in team discussions, learning new technologies, consistently resolving bugs, and implementing additional features.",
+        "Implemented CI/CD practices, automating the testing and deployment processes for faster and more reliable releases.",
+        "Recognized as the most helpful team member and bucket list solver of the month.",
       ],
     },
     {
@@ -140,12 +152,10 @@ import {
       iconBg: "#fff5d8",
       date: "sept 2022 - April 2023",
       points: [
-        "Steering the project's technical direction, I harnessed the Laravel framework and Bootstrap to forge a robust, user-centric platform. Informed decisions paved the way for a successful website.",
-        "Nurturing camaraderie, I aided team members in surmounting technical hurdles, fostering a skilled and cohesive unit primed for productivity.",
-        "Embracing Agile practices, I engaged in daily stand-ups, facilitating seamless communication, quick adaptation, and effective problem-solving.",
-        "Partnering closely with the project lead, I ensured progress transparency through timely updates and schedules, maintaining alignment and momentum",
-        "Regular consultations with our client—a seasoned NP nurse and professor—unveiled insights that shaped functional features, enhancing the website's practicality.",
-        "Collaboratively with the project lead, I orchestrated feature prioritization and rollouts, resulting in a streamlined development process and coherent user experience.",
+        "Fostered collaborative mentorship and efficient project management, resulting in a 25% reduction in technical challenges encountered by the team.",
+        "Collaborated in implementing efficient project management strategies, resulting in a 20% reduction in project timelines.",
+        "Conducted bi-weekly client consultations and conveyed the information to the development team meetings, resulting in the implementation of 80% of client-suggested features, directly contributing to a 25% increase in website practicality.",
+
       ],
     },
     {
@@ -336,9 +346,9 @@ import {
       source_code_link: "https://github.com/prabeshkunwar12/webnp_server",
     },
     {
-      name: "School Management System",
+      name: "School Management",
       description:
-        "Played a crucial role in architecting and implementing a comprehensive software solution with focus on data accuracy, system efficiency, and seamless communication among administrators, teachers, students, and parents has been instrumental in enhancing the overall functionality and performance of the system.",
+        "Software with focus on data accuracy, system efficiency, and seamless communication among administrators, teachers, students, and parents has been instrumental in enhancing the overall functionality and performance of the system.",
       tags: [
         {
           name: "Spring",
@@ -389,8 +399,125 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: sma,
       source_code_link: "https://github.com/prabeshkunwar12/schoolManagementSystem",
+    },
+    {
+      name: "Life Expectancy",
+      description:
+        "Conducted comprehensive data analysis on life expectancy, utilizing various data analysis tools to explore the correlation between life expectancy and various factors. The findings were presented in a detailed report.",
+      tags: [
+        {
+          name: "Jupyter Notebook",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Python",
+          color: "green-text-gradient",
+        },
+        {
+          name: "IEEE Conference Template",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MatPlotLib",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Pandas",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NumPy",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Seaborn",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Scikit-Learn",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Pandas",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Random Forest Regressor",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: life_ex,
+      source_code_link: "https://github.com/prabeshkunwar12/lifeExpectancy",
+    },
+    {
+      name: "Responsive Website",
+      description:
+        "Took freeCodeCamp course to strengthen my base in building responsive websites using HTML and CSS. ",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML5",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CSS3",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS Animation",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS Media",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: res_web,
+      source_code_link: "https://github.com/prabeshkunwar12/responsivewebsite",
+      link: "https://prabeshkunwar12.github.io/responsivewebsite/",
+      link_image: logo,
+    },
+    {
+      name: "COVID varients",
+      description:
+        "This project employs Chaos Game Representation (CGR) and Multidimensional Scaling (MDS) to analyze DNA sequences of COVID-19 variants. By visualizing the genetic relationships in a 3D space, the program provides insights into the diversity and relatedness of different variants.",
+      tags: [
+        {
+          name: "Python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NumPy",
+          color: "green-text-gradient",
+        },
+        {
+          name: "NatPlotLib",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Scikit-Learn",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CGR",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MDS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: covid,
+      source_code_link: "https://github.com/prabeshkunwar12/covid",
     },
   ];
   
