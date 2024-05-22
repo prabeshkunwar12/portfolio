@@ -28,6 +28,8 @@ import {
     logo,
     res_web,
     covid,
+    casecobra_page,
+    casecobra,
   } from "../assets";
   
   export const navLinks = [
@@ -215,12 +217,12 @@ import {
   
   const projects = [
     {
-      name: "TaskTale",
+      name: "Case Cobra",
       description:
         "Dynamic platform revolutionizing task management through a robust web application. Contributed to an intuitive UI, authentication features, animations, and secure data handling",
       tags: [
         {
-          name: "Next.JS",
+          name: "NextJS",
           color: "blue-text-gradient",
         },
         {
@@ -228,12 +230,67 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "React",
+          name: "ReactJS",
           color: "pink-text-gradient",
         },
         {
-          name: "clcx",
+          name: "Tailwind CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Shadcn UI",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Neon PostgreSQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Prisma",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Kinde Authentication",
           color: "blue-text-gradient",
+        },
+        {
+          name: "Zod",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Tanstack Query",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Vercel",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ES Lint",
+          color: "green-text-gradient",
+        },
+      ],
+      image: casecobra_page,
+      link: "https://case-cobra-henna.vercel.app/",
+      link_image: casecobra,
+      source_code_link:"https://github.com/prabeshkunwar12/tasktale_2.0"
+    },
+    {
+      name: "TaskTale",
+      description:
+        "Dynamic platform revolutionizing task management through a robust web application. Contributed to an intuitive UI, authentication features, animations, and secure data handling",
+      tags: [
+        {
+          name: "NextJS",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ReactJS",
+          color: "pink-text-gradient",
         },
         {
           name: "Tailwind CSS",
@@ -244,11 +301,7 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "Radix-UI",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "PostgreSQL",
+          name: "Vercel PostgreSQL",
           color: "green-text-gradient",
         },
         {
@@ -260,7 +313,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "zod",
+          name: "Zod",
           color: "green-text-gradient",
         },
         {
@@ -268,29 +321,18 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "REST api",
-          color: "blue-text-gradient",
-        },
-        {
           name: "Vercel",
           color: "green-text-gradient",
         },
         {
-          name: "Hostinger",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "VPS",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Docker",
+          name: "ESLint",
           color: "green-text-gradient",
         },
       ],
       image: tasktale_page,
       link: "https://tasktale.com/",
-      link_image: tasktale
+      link_image: tasktale,
+      source_code_link:"https://github.com/prabeshkunwar12/tasktale_2.0"
     },
     {
       name: "WebNP",
@@ -310,7 +352,7 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "composer",
+          name: "Composer",
           color: "blue-text-gradient",
         },
         {
@@ -322,7 +364,7 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "faker-php",
+          name: "Bootstrap",
           color: "blue-text-gradient",
         },
         {
@@ -330,11 +372,11 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "laravel adminlite",
+          name: "Laravel Adminlite",
           color: "pink-text-gradient",
         },
         {
-          name: "mokery",
+          name: "Mokery",
           color: "blue-text-gradient",
         },
         {
@@ -343,6 +385,7 @@ import {
         },
       ],
       image: webnp_page,
+      link: "https://version2.webnp.info/",
       source_code_link: "https://github.com/prabeshkunwar12/webnp_server",
     },
     {
@@ -371,7 +414,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "hibernate",
+          name: "Hibernate",
           color: "pink-text-gradient",
         },
         {
@@ -387,7 +430,7 @@ import {
           color: "pink-text-gradient",
         },
         {
-          name: "SonarQube",
+          name: "Sonar Qube",
           color: "blue-text-gradient",
         },
         {

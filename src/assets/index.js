@@ -36,6 +36,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import tasktale_page from "./tasktale-page.png"
 import webnp_page from "./webnp-page.png"
+import casecobra_page from "./case-cobra.png"
+import casecobra from "./snake-1.png"
 import sma from "./sma.png"
 import life_ex from "./life_ex.png"
 import res_web from "./res_web.png"
@@ -76,6 +78,8 @@ export {
   tripguide,
   tasktale_page,
   webnp_page,
+  casecobra_page,
+  casecobra,
   walmart,
   sma,
   life_ex,
