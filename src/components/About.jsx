@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am an accomplished software developer with a strong command of Java, Python, and JavaScript, along with proficiency in leading frameworks such as Next.JS, Laravel, and Spring. My commitment to creating efficient, scalable, and user-friendly solutions that tackle real-world challenges is unwavering. I thrive on continuous learning and close collaboration with clients to transform ideas into reality.
+        I am an accomplished software developer with a strong command of TypeScript, JavaScript and Java, along with proficiency in leading frameworks such as Next.JS, Laravel, and Spring. My commitment to creating efficient, scalable, and user-friendly solutions that tackle real-world challenges is unwavering. I thrive on continuous learning and close collaboration with clients to transform ideas into reality.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
