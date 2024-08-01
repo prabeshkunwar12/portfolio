@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
-import { navLinks } from '../constants';
+import { navLinks, navLinks1 } from '../constants';
 import { logo, menu, close } from '../assets';
-import { Braces, Code, Github, Linkedin } from 'lucide-react';
 
 const Navbar = () => {
   const [active, setActive] = useState('');
@@ -46,26 +45,17 @@ const Navbar = () => {
         </div>
         
         <ul className='gap-5 hidden md:flex'>
-          <li
-            className='hover:text-white text-[16px] font-medium cursor-pointer text-secondary'
-          >
-            <a href="https://github.com/prabeshkunwar12" target='_blank' rel='noreferrer'><Github /></a>
-          </li>
-          <li
-            className='hover:text-white text-[16px] font-medium cursor-pointer text-secondary'
-          >
-            <a href="https://www.linkedin.com/in/prabesh-kunwar/" target='_blank' rel='noreferrer'><Linkedin /></a>
-          </li>
-          <li
-            className='hover:text-white text-[16px] font-medium cursor-pointer text-secondary'
-          >
-            <a href="https://leetcode.com/u/PrabAce/" target='_blank' rel='noreferrer'><Code /></a>
-          </li>
-          <li
-            className='hover:text-white text-[16px] font-medium cursor-pointer text-secondary'
-          >
-            <a href="https://www.hackerrank.com/profile/prabeshkunwar12" target='_blank' rel='noreferrer'><Braces /></a>
-          </li>
+          {navLinks1.map((link)=>{
+            const Icon = link.icon;
+            return (
+              <li
+                key={link.href}
+                className='hover:text-white text-[16px] font-medium cursor-pointer text-secondary'
+              >
+                <a href={link.href} target='_blank' rel='noreferrer'><Icon /></a>
+              </li>
+            )
+          })}
         </ul>
 
         <div className='md:hidden flex flex-1 justify-end items-center'>
@@ -94,26 +84,17 @@ const Navbar = () => {
                 </li>
               ))}
               <div className='flex text-secondary text-center gap-2'>
-                <li
-                  className='hover:text-white text-[16px] font-medium cursor-pointer'
-                >
-                  <a href="https://github.com/prabeshkunwar12" target='_blank' rel='noreferrer'><Github /></a>
-                </li>
-                <li
-                  className='hover:text-white text-[16px] font-medium cursor-pointer'
-                >
-                  <a href="https://www.linkedin.com/in/prabesh-kunwar/" target='_blank' rel='noreferrer'><Linkedin /></a>
-                </li>
-                <li
-                  className='hover:text-white text-[16px] font-medium cursor-pointer'
-                >
-                  <a href="https://leetcode.com/u/PrabAce/" target='_blank' rel='noreferrer'><Code /></a>
-                </li>
-                <li
-                  className='hover:text-white text-[16px] font-medium cursor-pointer'
-                >
-                  <a href="https://www.hackerrank.com/profile/prabeshkunwar12" target='_blank' rel='noreferrer'><Braces /></a>
-                </li>
+                {navLinks1.map((link)=>{
+                  const Icon = link.icon;
+                  return (
+                    <li
+                      key={link.href}
+                      className='hover:text-white text-[16px] font-medium cursor-pointer text-secondary'
+                    >
+                      <a href={link.href} target='_blank' rel='noreferrer'><Icon /></a>
+                    </li>
+                  )
+                })}
               </div>
             </ul>
           </div>

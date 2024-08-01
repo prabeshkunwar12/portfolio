@@ -1,3 +1,4 @@
+import { Braces, Code, Github, Linkedin } from "lucide-react";
 import {
     mobile,
     backend,
@@ -44,6 +45,25 @@ import {
     {
       id: "contact",
       title: "Contact",
+    },
+  ];
+
+  export const navLinks1 = [
+    {
+      href: "https://github.com/prabeshkunwar12",
+      icon: Github,
+    },
+    {
+      href: "https://www.linkedin.com/in/prabesh-kunwar/",
+      icon: Linkedin,
+    },
+    {
+      href: "https://leetcode.com/u/PrabAce/",
+      icon: Code,
+    },
+    {
+      href: "https://www.hackerrank.com/profile/prabeshkunwar12",
+      icon: Braces,
     },
   ];
   
