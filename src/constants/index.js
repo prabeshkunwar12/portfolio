@@ -156,28 +156,28 @@ import {
     },
     {
       title: "Backend Spring Developer",
-      company_name: "TaskTale",
+      company_name: "DeerHold",
       icon: deerhold,
       iconBg: "#ffffff",
       date: "Dec 2022 - Nov 2023",
       points: [
-        "Achieved a 15% reduction in data retrieval times by implementing efficient database management and embraced Agile and Scrum methodologies for streamlined project management and iterative development.",
-        "Ensured a code coverage, maintaining high code quality standards and contributed to a 20% improvement in team efficiency by actively participating in team discussions, learning new technologies, consistently resolving bugs, and implementing additional features.",
-        "Implemented CI/CD practices, automating the testing and deployment processes for faster and more reliable releases.",
-        "Recognized as the most helpful team member and bucket list solver of the month.",
+        "Developed, coded, tested, and debugged software and applications using Java",
+        "Developed responsive user interfaces using Angular, React, and Node.js, enhancing user experience",
+        "Utilized Git, Maven, Jenkins, and CI/CD pipelines to automate the build and deployment process.",
+        "Employed common testing tools and methodologies to ensure software reliability and performance.",
       ],
     },
     {
       title: "Tech Lead and Full Stack Developer",
-      company_name: "UPEI WebNP for nursing students",
+      company_name: "WebNP",
       icon: webnp,
       iconBg: "#fff5d8",
       date: "sept 2022 - April 2023",
       points: [
-        "Fostered collaborative mentorship and efficient project management, resulting in a 25% reduction in technical challenges encountered by the team.",
-        "Collaborated in implementing efficient project management strategies, resulting in a 20% reduction in project timelines.",
-        "Conducted bi-weekly client consultations and conveyed the information to the development team meetings, resulting in the implementation of 80% of client-suggested features, directly contributing to a 25% increase in website practicality.",
-
+        "Directed the end-to-end development of web-based applications using the Laravel framework",
+        "Architected and implemented features, leveraging Laravel's built-in functionalities and Eloquent ORM.",
+        "Designed and managed relational databases using MySQL, ensuring data integrity and performance.",
+        "Fostered a collaborative team environment, promoting knowledge sharing and continuous improvement."
       ],
     },
     {
@@ -188,7 +188,6 @@ import {
       date: "Jun 2020 - Jun 2023",
       points: [
         "Provide comprehensive personal care assistance, including dressing, grooming, and bathing.",
-        "Offer continuous mobility support, aiding with adaptive devices, wheelchairs, walkers, and transfers, while encouraging light exercises.",
         "Plan and serve tailored meals, monitoring dietary needs, food intake, and hydration, adapting for individuals with swallowing difficulties.",
       ],
     },
@@ -201,8 +200,6 @@ import {
       points: [    
         "Provided friendly and welcoming customer service, addressing inquiries about products and store policies.",
         "Efficiently processed transactions using cash registers and scanning systems, handling cash, credit/debit cards, checks, and electronic payments.",
-        "Monitored and reported low stock levels, contributing to the store's inventory management.",
-        "Handled customer returns and exchanges according to store policies, ensuring a positive shopping experience.",
       ],
     },
     
@@ -239,7 +236,7 @@ import {
     {
       name: "Case Cobra",
       description:
-        "Dynamic platform revolutionizing task management through a robust web application. Contributed to an intuitive UI, authentication features, animations, and secure data handling",
+        "Web platform to design and order phone cases for iphones. It allows customers to choose pictures of their choice, fit it in the case according to their need, place order and pay online.",
       tags: [
         {
           name: "NextJS",
@@ -464,6 +461,95 @@ import {
       ],
       image: sma,
       source_code_link: "https://github.com/prabeshkunwar12/schoolManagementSystem",
+    },
+    {
+      name: "Hotel Rating",
+      description:
+        "A Spring project using multiple microservices to store hotel rating and feedback from customers. It uses multiple databases for different micorservices and is only accessible through the API Gateway protected by authentication system. Each microservices are registered in eureka server which can be used to view the status of all the services and loadbalancing.",
+      tags: [
+        {
+          name: "Spring",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Spring boot",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MySQL",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JDBC",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "JPA",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Hibernate",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JUnit",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Mockito",
+          color: "green-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Sonar Qube",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "SLF4J",
+          color: "green-text-gradient",
+        },
+        {
+          name: "GitHub",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Netflix Eureka",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OpenFeign",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Docker",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "REST API",
+          color: "green-text-gradient",
+        },
+        {
+          name: "OKTA",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "JMeter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Gateway MVC",
+          color: "green-text-gradient",
+        },
+      ],
+      image: sma,
+      source_code_link: "https://github.com/prabeshkunwar12/hotel_rating",
     },
     {
       name: "Life Expectancy",
